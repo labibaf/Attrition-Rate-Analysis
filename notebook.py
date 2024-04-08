@@ -114,7 +114,7 @@ df=df.drop(columns=drop_cols,axis=1)
 df.head()
 
 # %%
-# df.to_csv('./dataset/employee_data_cleaned.csv',index=False)
+df.to_csv('./dataset/employee_data_cleaned.csv',index=False)
 
 # %% [markdown]
 # ## EDA
