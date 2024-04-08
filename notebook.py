@@ -1,5 +1,5 @@
 # %% [markdown]
-# # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
+# # Submission 1 : Menyelesaikan Permasalahan Human Resources
 
 # %% [markdown]
 # - Nama: Labib Ammar Fadhali
@@ -229,10 +229,11 @@ X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, te
 
 # %%
 models = {
-    "Logistic Regression": LogisticRegression(random_state=42),
-    "Decision Tree": DecisionTreeClassifier(random_state=42),
-    "Random Forest": RandomForestClassifier(random_state=42),
-    "Gradient Boosting": GradientBoostingClassifier(random_state=42)
+    'Logistic Regression': LogisticRegression(random_state=42),
+    'Decision Tree': DecisionTreeClassifier(random_state=42),
+    'Random Forest': RandomForestClassifier(random_state=42),
+    'Gradient Boosting': GradientBoostingClassifier(random_state=42),
+    'Neural Network': MLPClassifier(random_state=42)
 }
 
 # %%
@@ -265,7 +266,7 @@ for name, model in models.items():
 print(f"Model terbaik: {best_model}")
 
 # %%
-joblib.dump(best_model, 'best_model.pkl')
+joblib.dump(best_model, './model/best_model.pkl')
 print("Model terbaik telah disimpan sebagai 'best_model.pkl'.")
 
 
