@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 
 # Load model 
-best_model = joblib.load('best_model.pkl')
+best_model = joblib.load('./model/best_model.pkl')
 
 # Load data untuk prediksi
 data_to_predict = pd.read_csv('data_to_predict.csv') 
