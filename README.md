@@ -15,8 +15,6 @@ Proyek ini akan memfokuskan pada analisis data untuk mengidentifikasi faktor-fak
 
 ### Persiapan
 
-Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv
-
 Setup environment:
 - Install library yang dipakai
 ```
