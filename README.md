@@ -32,7 +32,7 @@ python prediction.py
 ```
 ## Business Dashboard
 
-Business dashboard telah dibuat untuk memonitor faktor-faktor yang mempengaruhi tingkat attrition karyawan. Anda dapat mengakses dashboard melalui [tautan ini](https://lookerstudio.google.com/reporting/3790bfe2-985f-4f19-8c64-b83a1f6e52fe).
+Business dashboard telah dibuat untuk memonitor faktor-faktor yang mempengaruhi tingkat attrition karyawan. Dashboard dapat diakses melalui [tautan ini](https://lookerstudio.google.com/reporting/3790bfe2-985f-4f19-8c64-b83a1f6e52fe).
 
 ![labibaf_Dashboard.png](labibaf_Dashboard.png)
 
